@@ -16,6 +16,8 @@ import androidx.core.content.ContextCompat
 import com.rama.tui.activities.MainActivity
 import com.rama.tui.managers.MusicManager
 import com.rama.bohio.R as BohioR
+import android.media.AudioManager
+
 
 class MediaPlaybackService : Service() {
 
