@@ -6,8 +6,6 @@ import com.rama.tui.R
 import com.rama.bohio.objects.PrefKeys
 import com.rama.bohio.objects.PrefTheme
 import com.rama.bohio.managers.PrefsManager as BohioPrefsManager
-const val SETTINGS_SECTION_LIST = "settings_section_list"
-const val SETTINGS_SECTION_FOLDERS = "settings_section_folders"
 
 
 class PrefsManager private constructor(context: Context) : BohioPrefsManager(context) {
